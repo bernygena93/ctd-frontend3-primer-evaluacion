@@ -1,0 +1,29 @@
+.container{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.loading{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1C1C;
+    color: #2CEFD2;
+}
+.aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5vh;
+    width: 100vw;
+    background-color: #1C1C1C;
+}
+
+small{
+    color: #A9A9A9;
+}

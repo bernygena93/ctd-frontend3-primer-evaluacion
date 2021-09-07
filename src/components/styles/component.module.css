@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("../font/Roboto-MediumItalic.ttf");
+  }
+  :root{
+      font-family:"Roboto Mono";
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    width: 70vw;
+    height: 85vh;
+    background-color: #1C1C1C;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+h1, h2, h3, h4, h5, ul, li, .options, small, .list{
+    background-color: #1C1C1C;
+    color: #2CEFD2;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.list{
+    padding-top: 5%;
+}
+
+.button{
+    background-color: #454746;
+    border: none;
+    border-radius: 10px;
+    color: #2CEFD2;
+    width: 10vw;
+    height: 5vh;
+}
